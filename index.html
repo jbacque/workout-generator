@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workout Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id = 'main'>
+            <h1>Gym Workout Generator</h1>
+            <h3>
+                Select as many or as little muscle groups below and click the button to generate a random workout.
+            </h3>
+            <p>
+                <input type="checkbox" id="legs"> <Span id="musclechoice">Legs</Span>  
+                <input type="checkbox" id="arms"> <Span id="musclechoice">Arms</Span>
+                <input type="checkbox" id="chest"> <Span id="musclechoice">Chest</Span>
+                <input type="checkbox" id="back"> <Span id="musclechoice">Back</Span>
+                <input type="checkbox" id="core"> <Span id="musclechoice">Core</Span>
+                <button id="genbtn">Generate Workout</button>
+            </p>
+            <center>
+                <p><em id= "error"></em></p>
+            </center>
+            <center>
+                <div id="display"></div>
+            </center>
+            <p id="signoff"></p>
+            <script src="main.js"></script>
+        </div>
+        
+    </body>
+</html>
